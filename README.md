@@ -251,47 +251,29 @@ Use cs-company-research to research Notion at <https://notion.so> and create a d
 
 ## Limitations
 
-### 1. Information Availability
+1. **Information Availability:** Private companies may have limited public information
+    - **Impact:** Some sections (like revenue, employee count) may be unavailable
+    - **Mitigation:** Skill explicitly notes when information is not publicly available
 
-- **Limitation:** Private companies may have limited public information
-- **Impact:** Some sections (like revenue, employee count) may be unavailable
-- **Mitigation:** Skill explicitly notes when information is not publicly available
+2. **Real-Time Data:** Claude's knowledge cutoff is January 2025
+    - **Impact:** Very recent company changes (post-January 2025) require web search
+    - **Mitigation:** Skill uses web search tools to find current information
 
-### 2. Real-Time Data
+3. **Subjective Analysis:** Skill focuses on factual research, not strategic recommendations
+    - **Impact:** Won't provide "should you join this company" type advice
+    - **Mitigation:** Provides objective insights that inform your own decisions
 
-- **Limitation:** Claude's knowledge cutoff is January 2025
-- **Impact:** Very recent company changes (post-January 2025) require web search
-- **Mitigation:** Skill uses web search tools to find current information
+4. **Research Depth vs. Time:** Thorough research takes 5-10 minutes per company
+    - **Impact:** Not suitable for quick, superficial overviews
+    - **Mitigation:** Quality over speed - the depth justifies the time
 
-### 3. Subjective Analysis
+5. **Language Support:** Optimized for English-language sources
+    - **Impact:** May have reduced quality for non-English companies
+    - **Mitigation:** Works best with companies that have English documentation
 
-- **Limitation:** Skill focuses on factual research, not strategic recommendations
-- **Impact:** Won't provide "should you join this company" type advice
-- **Mitigation:** Provides objective insights that inform your own decisions
-
-### 4. Private/Stealth Companies
-
-- **Limitation:** Companies in stealth mode or with no web presence can't be researched
-- **Impact:** Output may be minimal or unavailable
-- **Mitigation:** Best for companies with public websites and presence
-
-### 5. Research Depth vs. Time
-
-- **Limitation:** Thorough research takes 5-10 minutes per company
-- **Impact:** Not suitable for quick, superficial overviews
-- **Mitigation:** Quality over speed - the depth justifies the time
-
-### 6. Language Support
-
-- **Limitation:** Optimized for English-language sources
-- **Impact:** May have reduced quality for non-English companies
-- **Mitigation:** Works best with companies that have English documentation
-
-### 7. Technical Products
-
-- **Limitation:** Deeply technical products (enterprise software, developer tools) may require additional technical expertise to fully evaluate
-- **Impact:** Product deep dives are comprehensive but may not replace hands-on evaluation
-- **Mitigation:** Skill provides a thorough feature analysis as a strong foundation
+6. **Technical Products:** Deeply technical products (enterprise software, developer tools) may require additional technical expertise to fully evaluate
+    - **Impact:** Product deep dives are comprehensive but may not replace hands-on evaluation
+    - **Mitigation:** Skill provides a thorough feature analysis as a strong foundation
 
 ## Customization Guide
 
