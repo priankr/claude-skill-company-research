@@ -2,7 +2,7 @@
 
 This guide shows you how to modify the cs-company-research skill to meet your specific needs.
 
-**Note:** See [skill_usage_guide.md]() for instructions how to use the skill.
+**Note:** See [skill_usage_guide.md](https://github.com/priankr/claude-skill-company-research/blob/main/skill_usage_guide.md) for instructions how to use the skill.
 
 ## Why Customize?
 
